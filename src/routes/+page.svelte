@@ -4,8 +4,10 @@
 </svelte:head>
 
 <section>
-	<img src="jesper.jpg" alt="Jesper" class="rounded-full w-56 mt-10" />
-	<h1 class="text-7xl grid align-middle text-center tracking-tight font-bold">Jeppzone Studios.</h1>
+	<img src="jesper.jpg" alt="Jesper" class="rounded-full md:w-56 xs:w-32 mt-10" />
+	<h1 class="md:text-7xl xs:text-5xl grid align-middle text-center tracking-tight font-bold">
+		Jeppzone Studios.
+	</h1>
 	<h2 class="text-3xl grid align-middle pt-5 text-center tracking-tight font-bold">
 		Freelance software developer based in Gothenburg.
 	</h2>
