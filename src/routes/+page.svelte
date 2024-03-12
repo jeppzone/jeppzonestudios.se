@@ -28,7 +28,7 @@
 	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
 		🛢️ SQL Server, Elasticsearch, Redis
 	</p>
-	<div class="grid sm:grid-cols-3 xs:grid-cols-1 pt-5 gap-8 text-center">
+	<div class="grid sm:grid-cols-3 xs:grid-cols-1 pt-5 sm:gap-8 xs:gap-4 text-center">
 		<a
 			href="https://github.com/jeppzone"
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
