@@ -5,14 +5,14 @@
 
 <section>
 	<img src="jesper.jpg" alt="Jesper" class="rounded-full w-56 mt-10" />
-	<h1 class="text-7xl grid align-middle text-center tracking-tight font-bold">Jeppzone Studios</h1>
+	<h1 class="text-7xl grid align-middle text-center tracking-tight font-bold">Jeppzone Studios.</h1>
 	<h2 class="text-3xl grid align-middle pt-5 text-center tracking-tight font-bold">
-		Frilansande systemutvecklare med bas i Göteborg
+		Freelance software developer based in Gothenburg.
 	</h2>
 	<p class="pt-5 text-xl text-pretty text-center tracking-tight">
-		Hej! Jag heter Jesper Olsson Laine. Jag har <b class="text-2xl">6</b> års profersionell
-		erfarenhet av <b class="text-2xl">mjukvaruutveckling</b>. Jag behärskar de flesta delar av
-		mjukvarustacken, från frontendutveckling till hosting i molnet.
+		Hi! I'm Jesper Olsson Laine. I have <b class="text-2xl">6</b> years of professional experience
+		working with <b class="text-2xl">software development</b>. I work with the entire software
+		stack, everything from frontend development to hosting in the cloud.
 	</p>
 	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
 		💻C# .NET, NodeJS
