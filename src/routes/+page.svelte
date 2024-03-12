@@ -1,10 +1,17 @@
 <svelte:head>
-	<title>Jeppzone Studios</title>
-	<meta name="description" content="Frilansande systemutvecklare med bas i Göteborg" />
+	<title>Freelance Software Developer in Gothenburg | Jeppzone Studios</title>
+	<meta
+		name="description"
+		content="Experienced freelance software developer based in Gothenburg. Specializing in C# .NET, Svelte, Kubernetes, Azure, and more. Contact Jesper Olsson Laine for your software development needs."
+	/>
 </svelte:head>
 
 <section>
-	<img src="jesper.jpg" alt="Jesper" class="rounded-full md:w-56 xs:w-32 sm:w-32 mt-10" />
+	<img
+		src="jesper.jpg"
+		alt="Jesper Olsson Laine - Freelance Software Developer based in Gothenburg"
+		class="rounded-full md:w-56 xs:w-32 sm:w-32 mt-10"
+	/>
 	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold">
 		Jeppzone Studios.
 	</h1>

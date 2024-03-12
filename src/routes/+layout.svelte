@@ -9,7 +9,6 @@
 
 	<footer>
 		<p><b>jesper@jeppzonestudios.se</b></p>
-		<p><b>559437-4000</b></p>
 	</footer>
 </div>
 
