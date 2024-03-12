@@ -5,12 +5,10 @@
 
 <section>
 	<img src="jesper.jpg" alt="Jesper" class="rounded-full md:w-56 xs:w-32 sm:w-32 mt-10" />
-	<h1
-		class="md:text-7xl s:text-5xl xs:text-5xl grid align-middle text-center tracking-tight font-bold"
-	>
+	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold">
 		Jeppzone Studios.
 	</h1>
-	<h2 class="text-3xl grid align-middle pt-5 text-center tracking-tight font-bold">
+	<h2 class="text-3xl pt-5 text-center tracking-tight font-bold">
 		Freelance software developer based in Gothenburg.
 	</h2>
 	<p class="pt-5 text-xl text-pretty text-center tracking-tight">
@@ -30,7 +28,7 @@
 	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
 		🛢️ SQL Server, Elasticsearch, Redis
 	</p>
-	<div class="grid grid-cols-3 pt-5 gap-8 text-center">
+	<div class="grid sm:grid-cols-3 xs:grid-cols-1 pt-5 gap-8 text-center">
 		<a
 			href="https://github.com/jeppzone"
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
