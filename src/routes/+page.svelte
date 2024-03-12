@@ -4,24 +4,26 @@
 </svelte:head>
 
 <section>
-	<h1 class="text-7xl grid align-middle text-center tracking-tight font-bold">
-		Jeppzone Studios AB
-	</h1>
-	<h2 class="text-3xl grid align-middle pt-5 text-center tracking-tight">
+	<img src="jesper.jpg" alt="Jesper" class="rounded-full w-56 mt-10" />
+	<h1 class="text-7xl grid align-middle text-center tracking-tight font-bold">Jeppzone Studios</h1>
+	<h2 class="text-3xl grid align-middle pt-5 text-center tracking-tight font-bold">
 		Frilansande systemutvecklare med bas i Göteborg
 	</h2>
-	<img src="jesper.jpg" alt="Jesper" class="rounded-full w-56 mt-10" />
-	<p class="pt-5 text-xl text-pretty text-center">
+	<p class="pt-5 text-xl text-pretty text-center tracking-tight">
 		Hej! Jag heter Jesper Olsson Laine. Jag har <b class="text-2xl">6</b> års profersionell
 		erfarenhet av <b class="text-2xl">mjukvaruutveckling</b>. Jag behärskar de flesta delar av
 		mjukvarustacken, från frontendutveckling till hosting i molnet.
 	</p>
-	<p class="text-2xl text-pretty text-center pt-5 font-extrabold">💻C# .NET, NodeJS</p>
-	<p class="text-2xl text-pretty text-center pt-5 font-extrabold">🎨 Svelte, React, Tailwind</p>
-	<p class="text-2xl text-pretty text-center pt-5 font-extrabold">
+	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
+		💻C# .NET, NodeJS
+	</p>
+	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
+		🎨 Svelte, React, Tailwind
+	</p>
+	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
 		⚙️ Docker, Kubernetes, Azure, Azure Devops, Git
 	</p>
-	<p class="text-2xl text-pretty text-center pt-5 font-extrabold">
+	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
 		🛢️ SQL Server, Elasticsearch, Redis
 	</p>
 	<div class="grid grid-cols-3 pt-5 gap-8 text-center">
