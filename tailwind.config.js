@@ -9,7 +9,7 @@ export default {
 			}
 		},
 		screens: {
-			xs: '475px',
+			xs: '350px',
 			...defaultTheme.screens
 		}
 	},
