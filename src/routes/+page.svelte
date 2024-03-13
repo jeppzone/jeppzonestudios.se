@@ -73,20 +73,25 @@
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
 			>Child Height Calculator</a
 		>
-	</div>
+	</div> -->
 	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
 		Content.
 	</h1>
-	<div class="grid sm:grid-cols-2 xs:grid-cols-1 pt-5 sm:gap-8 xs:gap-4 text-center">
+	<div class="grid sm:grid-cols-3 xs:grid-cols-1 pt-5 sm:gap-8 xs:gap-4 text-center">
 		<a
 			href="https://www.youtube.com/@jeppzonegaming"
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
-			>My Gaming Youtube Channel</a
+			>Gaming Youtube Channel</a
 		>
 		<a
 			href="https://www.youtube.com/@jeppzonelifestyle"
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
-			>My Lifestyle Youtube Channel</a
+			>Lifestyle Youtube Channel</a
 		>
-	</div> -->
+		<a
+			href="https://www.jeppzonelifestyle.com"
+			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
+			>Lifestyle Blog</a
+		>
+	</div>
 </section>
