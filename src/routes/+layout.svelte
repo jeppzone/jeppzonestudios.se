@@ -9,7 +9,7 @@
 	</main>
 
 	<footer>
-		<p><b>jesper@jeppzonestudios.se</b></p>
+		<p><b>Jeppzone Studios 2024</b></p>
 	</footer>
 </div>
 

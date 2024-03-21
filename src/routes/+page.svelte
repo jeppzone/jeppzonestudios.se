@@ -53,11 +53,6 @@
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
 			>LinkedIn</a
 		>
-		<a
-			href="mailto:jesper@jeppzonestudios.se"
-			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
-			>Mail</a
-		>
 	</div>
 	<!-- <h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
 		Projects.
