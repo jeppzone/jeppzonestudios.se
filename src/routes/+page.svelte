@@ -54,21 +54,6 @@
 			>LinkedIn</a
 		>
 	</div>
-	<!-- <h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
-		Projects.
-	</h1>
-	<div class="grid sm:grid-cols-2 xs:grid-cols-1 pt-5 sm:gap-8 xs:gap-4 text-center">
-		<a
-			href="https://nflpickem.netlify.app/"
-			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
-			>NFL Pickem App</a
-		>
-		<a
-			href="https://child-height-calculator.netlify.app/"
-			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
-			>Child Height Calculator</a
-		>
-	</div> -->
 	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
 		Content.
 	</h1>
@@ -88,5 +73,61 @@
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
 			>Lifestyle Blog</a
 		>
+	</div>
+	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
+		Work Experience.
+	</h1>
+	<div class="w-full">
+		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Jeppzone Studios (2023-)
+			</h1>
+			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Freelance fullstack software developer
+			</h2>
+		</div>
+		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Cygni (2018-2023)
+			</h1>
+			<h2 class="md:text-3xl px-5 pb-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Fullstack software developer
+			</h2>
+			<p class="text-pretty px-5 pb-5">
+				At Cygni, I worked as an IT Consultant on-site for a couple of Gothenburg's largest
+				companies.
+			</p>
+			<ul class="text-pretty px-10 list-disc">
+				<li>
+					Volvo Cars (2018-2021). At Volvo Cars, I was part of a team that aimed to accelearate
+					sales of already produced cars by building an search engine for other applications to be
+					able to find such cars. We built an API using .NET and ElasticSearch, and hosted it on AWS
+					using AWS EKS.
+				</li>
+				<li>Stena Line (2021-2023)</li>
+			</ul>
+		</div>
+	</div>
+	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
+		Education.
+	</h1>
+	<div class="w-full">
+		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Chalmers University of Technology (2016-2018)
+			</h1>
+			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Msc. Interaction Design
+			</h2>
+		</div>
+		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Chalmers University of Technology (2013-2016)
+			</h1>
+			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Bsc. Software Engineering
+			</h2>
+			<p class="text-pretty px-5 pb-5">At Cygni, I worked as an IT Consultant</p>
+		</div>
 	</div>
 </section>
