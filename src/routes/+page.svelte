@@ -87,7 +87,7 @@
 	<div class="w-full">
 		<div class="w-full rounded-xl mt-5 bg-blue-900">
 			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Msc. Interaction Design
+				MSc. Interaction Design
 			</h1>
 			<h2
 				class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold bg-blue-900"
@@ -97,7 +97,7 @@
 		</div>
 		<div class="w-full rounded-xl mt-5 bg-blue-900">
 			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
-				Bsc. Software Engineering
+				BSc. Software Engineering
 			</h1>
 			<h2 class="md:text-3xl p-5 xs:text-xl text-left tracking-tight font-bold">
 				Chalmers University of Technology (2013-2016)
