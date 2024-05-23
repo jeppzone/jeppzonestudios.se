@@ -39,6 +39,71 @@
 	<p class="text-2xl text-pretty text-center pt-5 font-extrabold tracking-tight">
 		🛢️ SQL Server, Elasticsearch, Redis
 	</p>
+	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
+		Work Experience.
+	</h1>
+	<div class="w-full">
+		<div class="w-full rounded-xl mt-5 bg-blue-900">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Freelance software developer
+			</h1>
+			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Jeppzone Studios (2023-)
+			</h2>
+			<p class="text-pretty px-5 pb-5">
+				As a freelance software developer, I continue to work on the Stena Line project mentioned
+				below.
+			</p>
+		</div>
+		<div class="w-full rounded-xl mt-5 bg-blue-900 pb-5">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Fullstack software developer consultant
+			</h1>
+			<h2 class="md:text-3xl px-5 pb-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Cygni (2018-2023)
+			</h2>
+			<p class="text-pretty px-5 pb-5">
+				At Cygni, I worked as an IT Consultant on-site for a couple of Gothenburg's largest
+				companies.
+			</p>
+			<ul class="text-pretty px-10 list-disc">
+				<li>
+					<b>Volvo Cars</b> (2018-2021). At Volvo Cars, I was part of a team that aimed to
+					accelearate sales of already produced cars by building an search engine for other
+					applications to be able to find such cars. We built an API using <b>.NET</b> and
+					<b>ElasticSearch</b>, and hosted it on AWS using <b>AWS EKS</b>.
+				</li>
+				<li>
+					<b>Stena Line</b> (2021-2023). At Stena Line, I was part of a team that built a new
+					payment platform to handle payments in all areas of the business. I focused mainly on the
+					backend, built with <b>.NET</b> and <b>SQL Server</b>, and hosted on <b>Openshift</b>.
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
+		Education.
+	</h1>
+	<div class="w-full">
+		<div class="w-full rounded-xl mt-5 bg-blue-900">
+			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+				Msc. Interaction Design
+			</h1>
+			<h2
+				class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold bg-blue-900"
+			>
+				Chalmers University of Technology (2016-2018)
+			</h2>
+		</div>
+		<div class="w-full rounded-xl mt-5 bg-blue-900">
+			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
+				Bsc. Software Engineering
+			</h1>
+			<h2 class="md:text-3xl p-5 xs:text-xl text-left tracking-tight font-bold">
+				Chalmers University of Technology (2013-2016)
+			</h2>
+		</div>
+	</div>
 	<h2 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
 		Socials.
 	</h2>
@@ -73,68 +138,5 @@
 			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
 			>Lifestyle Blog</a
 		>
-	</div>
-	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
-		Work Experience.
-	</h1>
-	<div class="w-full">
-		<div class="w-full rounded-xl mt-5">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Freelance software developer
-			</h1>
-			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Jeppzone Studios (2023-)
-			</h2>
-			<p class="text-pretty px-5 pb-5">
-				As a freelance software developer, I continue to work on the Stena Line project mentioned
-				below.
-			</p>
-		</div>
-		<div class="w-full rounded-xl mt-5">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Fullstack software developer consultant
-			</h1>
-			<h2 class="md:text-3xl px-5 pb-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Cygni (2018-2023)
-			</h2>
-			<p class="text-pretty px-5 pb-5">
-				At Cygni, I worked as an IT Consultant on-site for a couple of Gothenburg's largest
-				companies.
-			</p>
-			<ul class="text-pretty px-10 list-disc">
-				<li>
-					Volvo Cars (2018-2021). At Volvo Cars, I was part of a team that aimed to accelearate
-					sales of already produced cars by building an search engine for other applications to be
-					able to find such cars. We built an API using .NET and ElasticSearch, and hosted it on AWS
-					using AWS EKS.
-				</li>
-				<li>
-					Stena Line (2021-2023). At Stena Line, I was part of a team that build a new payment
-					platform to handle all payments in all areas of the business. I focused mainly on the
-					backend, built with .NET and SQL Server, and hosted on Openshift.
-				</li>
-			</ul>
-		</div>
-	</div>
-	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
-		Education.
-	</h1>
-	<div class="w-full">
-		<div class="w-full rounded-xl mt-5">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Msc. Interaction Design
-			</h1>
-			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Chalmers University of Technology (2016-2018)
-			</h2>
-		</div>
-		<div class="w-full rounded-xl mt-5">
-			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
-				Bsc. Software Engineering
-			</h1>
-			<h2 class="md:text-3xl p-5 xs:text-xl text-left tracking-tight font-bold">
-				Chalmers University of Technology (2013-2016)
-			</h2>
-		</div>
 	</div>
 </section>
