@@ -44,10 +44,10 @@
 	</h1>
 	<div class="w-full">
 		<div class="w-full rounded-xl mt-5 bg-blue-900">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				Freelance software developer
 			</h1>
-			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+			<h2 class="md:text-3xl p-5 xs:text-xl text-left tracking-tight font-bold">
 				Jeppzone Studios (2023-)
 			</h2>
 			<p class="text-pretty px-5 pb-5">
@@ -56,10 +56,10 @@
 			</p>
 		</div>
 		<div class="w-full rounded-xl mt-5 bg-blue-900 pb-5">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				Fullstack software developer consultant
 			</h1>
-			<h2 class="md:text-3xl px-5 pb-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+			<h2 class="md:text-3xl xs:text-xl px-5 pb-5 text-left tracking-tight font-bold">
 				Cygni (2018-2023)
 			</h2>
 			<p class="text-pretty px-5 pb-5">
@@ -86,12 +86,10 @@
 	</h1>
 	<div class="w-full">
 		<div class="w-full rounded-xl mt-5 bg-blue-900">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				MSc. Interaction Design
 			</h1>
-			<h2
-				class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold bg-blue-900"
-			>
+			<h2 class="md:text-3xl p-5 xs:text-xl text-left tracking-tight font-bold">
 				Chalmers University of Technology (2016-2018)
 			</h2>
 		</div>
