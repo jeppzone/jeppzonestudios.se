@@ -78,20 +78,24 @@
 		Work Experience.
 	</h1>
 	<div class="w-full">
-		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+		<div class="w-full rounded-xl mt-5">
 			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Jeppzone Studios (2023-)
+				Freelance software developer
 			</h1>
 			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Freelance fullstack software developer
+				Jeppzone Studios (2023-)
 			</h2>
+			<p class="text-pretty px-5 pb-5">
+				As a freelance software developer, I continue to work on the Stena Line project mentioned
+				below.
+			</p>
 		</div>
-		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+		<div class="w-full rounded-xl mt-5">
 			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Cygni (2018-2023)
+				Fullstack software developer consultant
 			</h1>
 			<h2 class="md:text-3xl px-5 pb-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Fullstack software developer
+				Cygni (2018-2023)
 			</h2>
 			<p class="text-pretty px-5 pb-5">
 				At Cygni, I worked as an IT Consultant on-site for a couple of Gothenburg's largest
@@ -104,7 +108,11 @@
 					able to find such cars. We built an API using .NET and ElasticSearch, and hosted it on AWS
 					using AWS EKS.
 				</li>
-				<li>Stena Line (2021-2023)</li>
+				<li>
+					Stena Line (2021-2023). At Stena Line, I was part of a team that build a new payment
+					platform to handle all payments in all areas of the business. I focused mainly on the
+					backend, built with .NET and SQL Server, and hosted on Openshift.
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -112,22 +120,21 @@
 		Education.
 	</h1>
 	<div class="w-full">
-		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
+		<div class="w-full rounded-xl mt-5">
 			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Chalmers University of Technology (2016-2018)
+				Msc. Interaction Design
 			</h1>
 			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Msc. Interaction Design
+				Chalmers University of Technology (2016-2018)
 			</h2>
 		</div>
-		<div class="bg-blue-900 w-full rounded-xl mt-5 h-80">
-			<h1 class="md:text-5xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
-				Chalmers University of Technology (2013-2016)
-			</h1>
-			<h2 class="md:text-3xl p-5 sm:text-5xl xs:text-5xl text-left tracking-tight font-bold">
+		<div class="w-full rounded-xl mt-5">
+			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				Bsc. Software Engineering
+			</h1>
+			<h2 class="md:text-3xl p-5 xs:text-xl text-left tracking-tight font-bold">
+				Chalmers University of Technology (2013-2016)
 			</h2>
-			<p class="text-pretty px-5 pb-5">At Cygni, I worked as an IT Consultant</p>
 		</div>
 	</div>
 </section>
