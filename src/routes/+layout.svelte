@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import '../app.pcss';
 </script>
 
 <div class="app bg-gradient-to-r from-blue-600 to-violet-600">
