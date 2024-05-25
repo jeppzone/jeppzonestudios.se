@@ -38,7 +38,7 @@
 		Work Experience.
 	</h1>
 	<div class="w-full">
-		<div class="w-full rounded-xl mt-5 bg-blue-900">
+		<div class="w-full rounded-xl mt-5 bg-blue-900 shadow-xl">
 			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				Freelance software developer
 			</h1>
@@ -50,7 +50,7 @@
 				below.
 			</p>
 		</div>
-		<div class="w-full rounded-xl mt-5 bg-blue-900 pb-5">
+		<div class="w-full rounded-xl mt-5 bg-blue-900 pb-5 shadow-xl">
 			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				Fullstack software developer consultant
 			</h1>
@@ -80,7 +80,7 @@
 		Education.
 	</h1>
 	<div class="w-full">
-		<div class="w-full rounded-xl mt-5 bg-blue-900">
+		<div class="w-full rounded-xl mt-5 bg-blue-900 shadow-xl">
 			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				MSc. Interaction Design
 			</h1>
@@ -88,7 +88,7 @@
 				Chalmers University of Technology (2016-2018)
 			</h2>
 		</div>
-		<div class="w-full rounded-xl mt-5 bg-blue-900">
+		<div class="w-full rounded-xl mt-5 bg-blue-900 shadow-xl">
 			<h1 class="md:text-5xl p-5 xs:text-3xl text-left tracking-tight font-bold">
 				BSc. Software Engineering
 			</h1>
