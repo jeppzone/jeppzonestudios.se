@@ -7,11 +7,6 @@
 </svelte:head>
 
 <section>
-	<!-- <img
-		src="https://iz0m1uq7gpijrmmg.public.blob.vercel-storage.com/jesper-vMLSvqYjNoj9XwdFZoKxnpJBzbnNYC.jpg"
-		alt="Jesper Olsson Laine - Freelance Software Developer based in Gothenburg"
-		class="rounded-full md:w-56 xs:w-32 sm:w-32 mt-10"
-	/> -->
 	<h1 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
 		Jeppzone Studios.
 	</h1>
