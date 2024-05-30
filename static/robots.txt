@@ -6,3 +6,4 @@ Allow: /
 
 Sitemap: https://jeppzonestudios.se/sitemap.xml
 Sitemap: https://quizter.jeppzonestudios.se/sitemap.xml
+Sitemap: https://nflpickem.jeppzonestudios.se/sitemap.xml

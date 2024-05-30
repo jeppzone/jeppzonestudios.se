@@ -1,7 +1,41 @@
 <svelte:head>
+	<!-- Title -->
 	<title>Freelance Software Developer in Gothenburg | Jeppzone Studios</title>
+
+	<!-- Meta Description -->
 	<meta
 		name="description"
+		content="Experienced freelance software developer based in Gothenburg. Specializing in C# .NET, Svelte, Kubernetes, Azure, and more. Contact Jesper Olsson Laine for your software development needs."
+	/>
+
+	<!-- Meta Keywords -->
+	<meta
+		name="keywords"
+		content="freelance software developer, software development, Gothenburg, C# .NET, Svelte, Kubernetes, Azure, Jesper Olsson Laine"
+	/>
+
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://jeppzonestudios.se" />
+
+	<!-- Open Graph Meta Tags (for social media sharing) -->
+	<meta
+		property="og:title"
+		content="Freelance Software Developer in Gothenburg | Jeppzone Studios"
+	/>
+	<meta
+		property="og:description"
+		content="Experienced freelance software developer based in Gothenburg. Specializing in C# .NET, Svelte, Kubernetes, Azure, and more. Contact Jesper Olsson Laine for your software development needs."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://jeppzonestudios.se" />
+
+	<!-- Twitter Meta Tags (for Twitter Cards) -->
+	<meta
+		name="twitter:title"
+		content="Freelance Software Developer in Gothenburg | Jeppzone Studios"
+	/>
+	<meta
+		name="twitter:description"
 		content="Experienced freelance software developer based in Gothenburg. Specializing in C# .NET, Svelte, Kubernetes, Azure, and more. Contact Jesper Olsson Laine for your software development needs."
 	/>
 </svelte:head>
