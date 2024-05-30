@@ -98,6 +98,21 @@
 		</div>
 	</div>
 	<h2 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
+		Hobby Projects.
+	</h2>
+	<div class="grid sm:grid-cols-2 xs:grid-cols-1 pt-5 sm:gap-8 xs:gap-4 text-center">
+		<a
+			href="https://quizter.jeppzonestudios.se"
+			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
+			>Quizter</a
+		>
+		<a
+			href="https://nflpickem.jeppzonestudios.se"
+			class="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white rounded"
+			>NFL Pick'em</a
+		>
+	</div>
+	<h2 class="md:text-7xl sm:text-5xl xs:text-5xl text-center tracking-tight font-bold pt-10">
 		Socials.
 	</h2>
 	<div class="grid sm:grid-cols-2 xs:grid-cols-1 pt-5 sm:gap-8 xs:gap-4 text-center">

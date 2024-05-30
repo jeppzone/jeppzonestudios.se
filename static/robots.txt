@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Allow: /
+
+Sitemap: https://jeppzonestudios.se/sitemap.xml
+Sitemap: https://quizter.jeppzonestudios.se/sitemap.xml
