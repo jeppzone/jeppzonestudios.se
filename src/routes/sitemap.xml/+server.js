@@ -1,5 +1,12 @@
 const site = 'https://jeppzonestudios.se';
-const pages = [''];
+const pages = [
+	{
+		path: '',
+		lastmod: new Date().toISOString().split('T')[0],
+		changefreq: 'weekly',
+		priority: '1.0'
+	}
+];
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET({ url }) {
@@ -23,9 +30,10 @@ const sitemap = (pages) => `<?xml version="1.0" encoding="UTF-8" ?>
 		.map(
 			(page) => `
   <url>
-    <loc>${site}/${page}</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <loc>${site}${page.path ? `/${page.path}` : ''}</loc>
+    <lastmod>${page.lastmod}</lastmod>
+    <changefreq>${page.changefreq}</changefreq>
+    <priority>${page.priority}</priority>
   </url>
   `
 		)

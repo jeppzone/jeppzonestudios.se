@@ -23,7 +23,7 @@
 	<!-- Keywords -->
 	<meta
 		name="keywords"
-		content="freelance software developer, Gothenburg developer, C# .NET developer, Svelte developer, Kubernetes expert, Azure cloud solutions, full-stack developer, Jesper Olsson Laine, Jeppzone Studios, software consultant"
+		content="freelance software developer, Gothenburg developer, C# .NET developer, Svelte developer, Kubernetes expert, Azure cloud solutions, full-stack developer, Jesper Olsson Laine, Jeppzone Studios, software consultant, software development Gothenburg, Swedish developer"
 	/>
 
 	<!-- Additional Meta Tags -->
@@ -47,6 +47,9 @@
 		content="Experienced freelance software developer in Gothenburg with 6+ years of expertise in C# .NET, Svelte, Kubernetes, and Azure. Full-stack development, cloud solutions, and modern web applications."
 	/>
 	<meta property="og:site_name" content="Jeppzone Studios" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:image" content="https://jeppzonestudios.se/profile.jpg" />
+	<meta property="og:image:alt" content="Jesper Olsson Laine - Freelance Software Developer" />
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -59,6 +62,8 @@
 		name="twitter:description"
 		content="Experienced freelance software developer in Gothenburg with 6+ years of expertise in C# .NET, Svelte, Kubernetes, and Azure. Full-stack development, cloud solutions, and modern web applications."
 	/>
+	<meta name="twitter:image" content="https://jeppzonestudios.se/profile.jpg" />
+	<meta name="twitter:image:alt" content="Jesper Olsson Laine - Freelance Software Developer" />
 
 	<!-- JSON-LD Structured Data -->
 	<script type="application/ld+json">
@@ -67,10 +72,12 @@
 			"@type": "Person",
 			"name": "Jesper Olsson Laine",
 			"url": "https://jeppzonestudios.se",
+			"image": "https://jeppzonestudios.se/profile.jpg",
 			"jobTitle": "Freelance Software Developer",
 			"worksFor": {
 				"@type": "Organization",
-				"name": "Jeppzone Studios"
+				"name": "Jeppzone Studios",
+				"url": "https://jeppzonestudios.se"
 			},
 			"alumniOf": {
 				"@type": "CollegeOrUniversity",
@@ -92,24 +99,59 @@
 				"Docker",
 				"SQL Server",
 				"Elasticsearch"
+			],
+			"description": "Experienced freelance software developer in Gothenburg with 6+ years of expertise in C# .NET, Svelte, Kubernetes, and Azure. Full-stack development, cloud solutions, and modern web applications."
+		}
+	</script>
+
+	<!-- YouTube Channels Structured Data -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ItemList",
+			"itemListElement": [
+				{
+					"@type": "VideoObject",
+					"@id": "https://www.youtube.com/@jeppzonegaming",
+					"name": "Jeppzone Gaming",
+					"description": "Gaming content and entertainment by Jesper Olsson Laine",
+					"url": "https://www.youtube.com/@jeppzonegaming",
+					"publisher": {
+						"@type": "Organization",
+						"name": "Jeppzone Studios",
+						"url": "https://jeppzonestudios.se"
+					}
+				},
+				{
+					"@type": "VideoObject",
+					"@id": "https://www.youtube.com/@jeppzonelifestyle",
+					"name": "Jeppzone Lifestyle",
+					"description": "Lifestyle content and personal development by Jesper Olsson Laine",
+					"url": "https://www.youtube.com/@jeppzonelifestyle",
+					"publisher": {
+						"@type": "Organization",
+						"name": "Jeppzone Studios",
+						"url": "https://jeppzonestudios.se"
+					}
+				}
 			]
 		}
 	</script>
 </svelte:head>
 
 <div class="min-h-screen bg-gradient-to-b from-gray-900 via-blue-900 to-gray-900">
-	<main class="container mx-auto px-4 py-8 max-w-7xl" role="main">
+	<main class="container mx-auto px-4 py-4 sm:py-8 max-w-7xl" role="main">
 		<!-- Hero Section -->
 		{#if mounted}
 			<section
-				class="min-h-[90vh] flex flex-col justify-center items-center space-y-6"
+				class="min-h-[90vh] flex flex-col justify-center items-center space-y-4 sm:space-y-6"
 				in:fade={{ duration: 1000 }}
 				aria-labelledby="hero-title"
 			>
 				<div class="relative">
 					<h1
 						id="hero-title"
-						class="md:text-8xl sm:text-6xl text-5xl text-center font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
+						class="text-4xl sm:text-6xl md:text-8xl text-center font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
 					>
 						Jeppzone Studios
 					</h1>
@@ -120,40 +162,41 @@
 				</div>
 
 				<h2
-					class="text-3xl text-center text-gray-200 max-w-4xl font-medium tracking-tight"
+					class="text-xl sm:text-2xl md:text-3xl text-center text-gray-200 max-w-4xl font-medium tracking-tight px-2"
 					in:fly={{ y: 20, duration: 1000, delay: 300 }}
 				>
 					Freelance software developer and content creator based in Gothenburg.
 				</h2>
 
 				<p
-					class="text-xl text-gray-300 max-w-4xl text-center leading-relaxed mt-6 tracking-normal"
+					class="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl text-center leading-relaxed mt-4 sm:mt-6 tracking-normal px-2"
 					in:fly={{ y: 20, duration: 1000, delay: 600 }}
 				>
-					Hi! I'm Jesper Olsson Laine. I have <span class="text-2xl font-bold text-blue-400">6</span
+					Hi! I'm Jesper Olsson Laine. I have <span
+						class="text-xl sm:text-2xl font-bold text-blue-400">6</span
 					>
 					years of professional experience working with
-					<span class="text-2xl font-bold text-blue-400">software development</span>. I work with
-					the entire software stack, everything from frontend development to hosting in the cloud.
-					When I'm not programming, I love to create
-					<span class="text-2xl font-bold text-blue-400">video content</span> on topics that interest
-					me.
+					<span class="text-xl sm:text-2xl font-bold text-blue-400">software development</span>. I
+					work with the entire software stack, everything from frontend development to hosting in
+					the cloud. When I'm not programming, I love to create
+					<span class="text-xl sm:text-2xl font-bold text-blue-400">video content</span> on topics that
+					interest me.
 				</p>
 			</section>
 
 			<!-- Technologies Section -->
 			<section
-				class="py-20"
+				class="py-12 sm:py-20"
 				in:fly={{ y: 20, duration: 1000, delay: 900 }}
 				aria-labelledby="technologies-title"
 			>
 				<h2
 					id="technologies-title"
-					class="text-6xl text-center font-extrabold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block px-4 py-2 tracking-tight"
+					class="text-4xl sm:text-5xl md:text-6xl text-center font-extrabold mb-8 sm:mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block px-4 py-2 tracking-tight"
 				>
 					Technologies
 				</h2>
-				<div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+				<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 max-w-5xl mx-auto px-2">
 					<article
 						class="bg-white/5 backdrop-blur-lg rounded-xl p-8 hover:bg-white/10 transition-all duration-300"
 					>
@@ -184,14 +227,14 @@
 			</section>
 
 			<!-- Work Experience Section -->
-			<section class="py-20" aria-labelledby="experience-title">
+			<section class="py-12 sm:py-20" aria-labelledby="experience-title">
 				<h2
 					id="experience-title"
-					class="text-6xl text-center font-extrabold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
+					class="text-4xl sm:text-5xl md:text-6xl text-center font-extrabold mb-8 sm:mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
 				>
 					Work Experience
 				</h2>
-				<div class="space-y-8 max-w-5xl mx-auto">
+				<div class="space-y-4 sm:space-y-8 max-w-5xl mx-auto px-2">
 					<article
 						class="bg-gradient-to-r from-blue-900/50 to-purple-900/50 rounded-xl p-8 backdrop-blur-lg hover:scale-[1.02] transition-all duration-300"
 					>
@@ -243,14 +286,14 @@
 			</section>
 
 			<!-- Education Section -->
-			<section class="py-20" aria-labelledby="education-title">
+			<section class="py-12 sm:py-20" aria-labelledby="education-title">
 				<h2
 					id="education-title"
-					class="text-6xl text-center font-extrabold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
+					class="text-4xl sm:text-5xl md:text-6xl text-center font-extrabold mb-8 sm:mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
 				>
 					Education
 				</h2>
-				<div class="space-y-8 max-w-5xl mx-auto">
+				<div class="space-y-4 sm:space-y-8 max-w-5xl mx-auto px-2">
 					<article
 						class="bg-gradient-to-r from-blue-900/50 to-purple-900/50 rounded-xl p-8 backdrop-blur-lg hover:scale-[1.02] transition-all duration-300"
 					>
@@ -271,14 +314,14 @@
 			</section>
 
 			<!-- Socials Section -->
-			<section class="py-20" aria-labelledby="connect-title">
+			<section class="py-12 sm:py-20" aria-labelledby="connect-title">
 				<h2
 					id="connect-title"
-					class="text-6xl text-center font-extrabold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
+					class="text-4xl sm:text-5xl md:text-6xl text-center font-extrabold mb-8 sm:mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
 				>
 					Connect With Me
 				</h2>
-				<div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+				<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 max-w-5xl mx-auto px-2">
 					<a
 						href="https://github.com/jeppzone"
 						class="group bg-white/5 backdrop-blur-lg rounded-xl p-8 hover:bg-white/10 transition-all duration-300 flex items-center justify-center space-x-4"
@@ -317,14 +360,16 @@
 			</section>
 
 			<!-- Content Section -->
-			<section class="py-20" aria-labelledby="content-title">
+			<section class="py-12 sm:py-20" aria-labelledby="content-title">
 				<h2
 					id="content-title"
-					class="text-6xl text-center font-extrabold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
+					class="text-4xl sm:text-5xl md:text-6xl text-center font-extrabold mb-8 sm:mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400 inline-block tracking-tight"
 				>
 					Content
 				</h2>
-				<div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+				<div
+					class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 max-w-7xl mx-auto px-2"
+				>
 					<a
 						href="https://www.youtube.com/@jeppzonegaming"
 						class="group bg-white/5 backdrop-blur-lg rounded-xl p-8 hover:bg-white/10 transition-all duration-300"
@@ -394,7 +439,6 @@
 
 <style>
 	:global(body) {
-		background-color: #111827;
 		color: white;
 	}
 </style>
