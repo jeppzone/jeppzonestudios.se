@@ -2,7 +2,7 @@
 	import '../app.pcss';
 </script>
 
-<div class="app bg-gradient-to-r from-blue-600 to-violet-600">
+<div class="app bg-gradient-to-r from-blue-900 to-violet-900">
 	<main>
 		<slot />
 	</main>

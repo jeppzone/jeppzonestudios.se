@@ -139,7 +139,7 @@
 	</script>
 </svelte:head>
 
-<div class="min-h-screen bg-gradient-to-b from-gray-900 via-blue-900 to-gray-900">
+<div class="min-h-screen bg-gradient-to-b from-gray-950 via-blue-950 to-gray-950">
 	<main class="container mx-auto px-4 py-4 sm:py-8 max-w-7xl" role="main">
 		<!-- Hero Section -->
 		{#if mounted}
