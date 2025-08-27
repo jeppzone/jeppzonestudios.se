@@ -57,7 +57,7 @@
 		<!-- Mobile Navigation -->
 		{#if mobileMenuOpen}
 			<div
-				class="lg:hidden mt-4 bg-black/30 rounded-2xl border border-white/10 overflow-hidden"
+				class="lg:hidden mt-4 bg-black/80 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl overflow-hidden"
 				in:slide={{ duration: 300 }}
 			>
 				<div class="p-6 space-y-4">
@@ -65,7 +65,6 @@
 					<a href="#technologies" class="mobile-nav-link" on:click={closeMobileMenu}>Tech</a>
 					<a href="#experience" class="mobile-nav-link" on:click={closeMobileMenu}>Experience</a>
 					<a href="#contact" class="mobile-nav-link" on:click={closeMobileMenu}>Contact</a>
-					<button class="btn-primary w-full mt-4"> 🚀 Get Started </button>
 				</div>
 			</div>
 		{/if}
@@ -91,7 +90,7 @@
 	}
 
 	.mobile-nav-link {
-		@apply block text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-white/10;
+		@apply block text-white hover:text-cyan-400 transition-colors duration-300 font-medium py-3 px-4 rounded-lg hover:bg-white/20 font-semibold;
 	}
 
 	.btn-primary {

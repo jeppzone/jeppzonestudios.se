@@ -42,6 +42,8 @@ body {
 	color: white;
 	font-family: 'Inter', sans-serif;
 	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Custom Scrollbar */
@@ -249,17 +251,6 @@ body {
 	box-shadow: var(--shadow-glow);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-	.glass-card {
-		margin: 10px;
-	}
-	
-	.gradient-text {
-		font-size: 2.5rem;
-	}
-}
-
 /* Loading Animation */
 .loading {
 	opacity: 0;
@@ -281,3 +272,226 @@ body {
 .stagger-4 { animation-delay: 0.4s; }
 .stagger-5 { animation-delay: 0.5s; }
 .stagger-6 { animation-delay: 0.6s; }
+
+/* Mobile-First Responsive Design */
+@media (max-width: 640px) {
+	/* Mobile-specific adjustments */
+	.glass-card {
+		margin: 8px;
+		border-radius: 16px;
+	}
+	
+	.gradient-text {
+		font-size: 2.5rem;
+		line-height: 1.1;
+	}
+	
+	/* Ensure minimum touch target size (44px) */
+	.social-link {
+		width: 56px;
+		height: 56px;
+	}
+	
+	.btn-primary {
+		min-height: 44px;
+		padding: 12px 24px;
+		font-size: 1rem;
+	}
+	
+	/* Mobile-optimized spacing */
+	.skill-badge {
+		padding: 6px 16px;
+		font-size: 0.85rem;
+	}
+	
+	/* Mobile timeline adjustments */
+	.timeline-item {
+		padding-left: 24px;
+	}
+	
+	.timeline-item::after {
+		width: 8px;
+		height: 8px;
+		left: -3px;
+	}
+}
+
+@media (max-width: 768px) {
+	.glass-card {
+		margin: 10px;
+	}
+	
+	.gradient-text {
+		font-size: 3rem;
+	}
+	
+	/* Mobile grid adjustments */
+	.grid {
+		gap: 1rem;
+	}
+	
+	/* Mobile card padding */
+	.glass-card {
+		padding: 1.5rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	/* Tablet adjustments */
+	.gradient-text {
+		font-size: 4rem;
+	}
+	
+	.glass-card {
+		padding: 2rem;
+	}
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+	/* Disable hover effects on touch devices */
+	.hover-lift:hover {
+		transform: none;
+		box-shadow: var(--shadow-card);
+	}
+	
+	.glass-card:hover {
+		transform: none;
+		box-shadow: var(--shadow-card);
+	}
+	
+	.skill-badge:hover {
+		transform: none;
+	}
+	
+	.social-link:hover {
+		transform: none;
+		box-shadow: none;
+	}
+	
+	/* Add active states for touch feedback */
+	.glass-card:active {
+		transform: scale(0.98);
+		background: rgba(255, 255, 255, 0.1);
+	}
+	
+	.btn-primary:active {
+		transform: scale(0.95);
+	}
+	
+	.social-link:active {
+		transform: scale(0.95);
+		background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
+	}
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.gradient-text {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+	
+	.particle {
+		animation: none;
+	}
+	
+	.animated-bg {
+		animation: none;
+		background: #0c0c0c;
+	}
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--shadow-card: 0 20px 40px rgba(0, 0, 0, 0.5);
+	}
+}
+
+/* Landscape mobile optimizations */
+@media (max-width: 768px) and (orientation: landscape) {
+	.min-h-screen {
+		min-height: 100vh;
+	}
+	
+	.py-12 {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	
+	.space-y-8 > * + * {
+		margin-top: 1.5rem;
+	}
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 640px) {
+	.container {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	
+	main {
+		overflow-x: hidden;
+		width: 100%;
+	}
+	
+	.glass-card {
+		margin: 4px;
+		padding: 1rem;
+		border-radius: 12px;
+	}
+	
+	.gradient-text {
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+	
+	.btn-primary {
+		width: 100%;
+		max-width: 300px;
+		min-height: 48px;
+	}
+	
+	.skill-badge {
+		padding: 8px 16px;
+		font-size: 0.875rem;
+		margin: 2px;
+	}
+	
+	.particle {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.gradient-text {
+		font-size: 1.75rem;
+	}
+	
+	.glass-card {
+		margin: 2px;
+		padding: 0.75rem;
+		border-radius: 10px;
+	}
+	
+	.skill-badge {
+		padding: 6px 12px;
+		font-size: 0.8rem;
+	}
+	
+	.btn-primary {
+		padding: 10px 16px;
+		font-size: 0.9rem;
+	}
+}
