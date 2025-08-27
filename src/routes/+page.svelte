@@ -453,6 +453,59 @@
 				</div>
 			</section>
 
+			<!-- Side Projects Section -->
+			<section class="py-20 relative" aria-labelledby="projects-title">
+				<div class="text-center mb-16">
+					<h2
+						id="projects-title"
+						class="gradient-text text-5xl sm:text-6xl md:text-7xl font-black mb-6 tracking-tight"
+					>
+						Side Projects
+					</h2>
+					<p class="text-xl text-gray-300 max-w-2xl mx-auto">Personal projects and experiments.</p>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+					<a
+						href="https://pickemszn.com"
+						class="glass-card p-10 text-center hover-lift group"
+						aria-label="Visit Pickemszn - Sports Pick'em Platform"
+						rel="noopener noreferrer"
+						in:scale={{ duration: 500, delay: 200 }}
+					>
+						<div
+							class="w-24 h-24 bg-gradient-to-br from-orange-400 to-red-500 rounded-3xl flex items-center justify-center mx-auto mb-6 text-4xl group-hover:scale-110 transition-transform"
+						>
+							🏈
+						</div>
+						<h3 class="text-3xl font-bold text-white mb-3">Pickemszn</h3>
+						<p class="text-gray-300 text-lg mb-4">NFL Pick'em Platform</p>
+						<p class="text-gray-400 text-sm">
+							A platform for sports enthusiasts to compete in pick'em contests
+						</p>
+					</a>
+
+					<a
+						href="https://quizter.jeppzonestudios.se"
+						class="glass-card p-10 text-center hover-lift group"
+						aria-label="Visit Quizter - Quiz Application"
+						rel="noopener noreferrer"
+						in:scale={{ duration: 500, delay: 400 }}
+					>
+						<div
+							class="w-24 h-24 bg-gradient-to-br from-purple-400 to-indigo-500 rounded-3xl flex items-center justify-center mx-auto mb-6 text-4xl group-hover:scale-110 transition-transform"
+						>
+							🧠
+						</div>
+						<h3 class="text-3xl font-bold text-white mb-3">Quizter</h3>
+						<p class="text-gray-300 text-lg mb-4">Quiz Application</p>
+						<p class="text-gray-400 text-sm">
+							An interactive quiz platform for learning and entertainment
+						</p>
+					</a>
+				</div>
+			</section>
+
 			<!-- Socials Section -->
 			<section id="contact" class="py-20 relative" aria-labelledby="connect-title">
 				<div class="text-center mb-16">
@@ -602,13 +655,13 @@
 						create something extraordinary.
 					</p>
 					<div class="flex flex-col sm:flex-row gap-4 justify-center">
-						<button class="btn-primary text-lg px-8 py-4"> 🚀 Start Your Project </button>
-						<button
-							class="btn-primary text-lg px-8 py-4"
+						<a
+							href="mailto:jesper@jeppzonestudios.se"
+							class="btn-primary text-lg px-8 py-4 inline-block text-center"
 							style="background: linear-gradient(135deg, #f093fb, #f5576c);"
 						>
 							💬 Let's Talk
-						</button>
+						</a>
 					</div>
 				</div>
 			</section>
