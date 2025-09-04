@@ -167,20 +167,18 @@
 			class="min-h-[90vh] flex flex-col justify-center items-center space-y-6 sm:space-y-8 relative px-2 sm:px-0"
 			aria-labelledby="hero-title"
 		>
-			<div in:fade={{ duration: 1200 }}>
+			<div>
 				<!-- Main Title with Glow Effect -->
-				<div class="relative text-center">
+				<div class="relative text-center mb-8 sm:mb-12">
 					<div>
 						<h1
 							id="hero-title"
 							class="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tight leading-none bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-pulse"
-							in:scale={{ duration: 1000, delay: 200 }}
 						>
 							Jeppzone
 						</h1>
 						<h1
 							class="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tight leading-none mt-2 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-pulse"
-							in:scale={{ duration: 1000, delay: 400 }}
 						>
 							Studios
 						</h1>
@@ -191,7 +189,6 @@
 				<div class="text-center max-w-4xl px-4 sm:px-0">
 					<h2
 						class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white font-light mb-4 sm:mb-6 leading-relaxed"
-						in:fly={{ y: 32, duration: 1000, delay: 600 }}
 					>
 						<span
 							class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 font-semibold"
@@ -203,7 +200,6 @@
 
 					<p
 						class="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0"
-						in:fly={{ y: 32, duration: 1000, delay: 900 }}
 					>
 						Hi! I'm <span class="text-cyan-400 font-semibold">Jesper Olsson Laine</span>. With
 						<span class="text-cyan-400 font-bold text-lg sm:text-xl md:text-2xl">7+ years</span>
@@ -220,7 +216,7 @@
 			class="py-12 sm:py-16 lg:py-20 relative px-2 sm:px-0"
 			aria-labelledby="technologies-title"
 		>
-			<div in:fly={{ y: 48, duration: 1000, delay: 1500 }}>
+			<div>
 				<div class="text-center mb-12 sm:mb-16">
 					<h2
 						id="technologies-title"
@@ -239,7 +235,6 @@
 					<!-- Backend Card -->
 					<div
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-blue-500/25"
-						in:fly={{ y: 30, duration: 800, delay: 1600 }}
 					>
 						<div
 							class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-xl sm:text-2xl"
@@ -269,7 +264,6 @@
 					<!-- Frontend Card -->
 					<div
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-pink-500/25"
-						in:fly={{ y: 30, duration: 800, delay: 1700 }}
 					>
 						<div
 							class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-pink-500 to-red-500 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-xl sm:text-2xl"
@@ -299,7 +293,6 @@
 					<!-- DevOps Card -->
 					<div
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-green-500/25"
-						in:fly={{ y: 30, duration: 800, delay: 1800 }}
 					>
 						<div
 							class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-xl sm:text-2xl"
@@ -329,7 +322,6 @@
 					<!-- Data Card -->
 					<div
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-yellow-500/25"
-						in:fly={{ y: 30, duration: 800, delay: 1900 }}
 					>
 						<div
 							class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-xl sm:text-2xl"
@@ -365,7 +357,7 @@
 			class="py-12 sm:py-16 lg:py-20 relative px-2 sm:px-0"
 			aria-labelledby="experience-title"
 		>
-			<div in:fly={{ y: 48, duration: 1000, delay: 2000 }}>
+			<div>
 				<div class="text-center mb-12 sm:mb-16">
 					<h2
 						id="experience-title"
@@ -382,7 +374,6 @@
 					<!-- Current Role -->
 					<div
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-cyan-500/25"
-						in:fly={{ y: 30, duration: 800, delay: 2100 }}
 					>
 						<div class="flex flex-col lg:flex-row items-start lg:items-center gap-4 sm:gap-6">
 							<div class="flex-shrink-0">
@@ -416,7 +407,6 @@
 					<!-- Cygni Experience -->
 					<div
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-purple-500/25"
-						in:fly={{ y: 30, duration: 800, delay: 2200 }}
 					>
 						<div class="flex flex-col lg:flex-row items-start lg:items-center gap-4 sm:gap-6">
 							<div class="flex-shrink-0">
@@ -679,7 +669,6 @@
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-red-500/25 group"
 						aria-label="Visit my Gaming YouTube Channel"
 						rel="noopener noreferrer"
-						in:scale={{ duration: 500, delay: 200 }}
 					>
 						<div
 							class="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-red-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300"
@@ -695,7 +684,9 @@
 							</svg>
 						</div>
 						<h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">Gaming Channel</h3>
-						<p class="text-gray-300 text-sm sm:text-base">Entertainment & Gaming Content</p>
+						<p class="text-gray-300 text-sm sm:text-base">
+							Playing difficult games and beating impossible bosses
+						</p>
 					</a>
 
 					<a
@@ -718,7 +709,9 @@
 							</svg>
 						</div>
 						<h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">Lifestyle Channel</h3>
-						<p class="text-gray-300 text-sm sm:text-base">Personal Development & Life</p>
+						<p class="text-gray-300 text-sm sm:text-base">
+							Talking about health in general through my own experiences
+						</p>
 					</a>
 
 					<a
@@ -726,7 +719,6 @@
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-blue-500/25 group"
 						aria-label="Visit my Lifestyle Blog"
 						rel="noopener noreferrer"
-						in:scale={{ duration: 500, delay: 600 }}
 					>
 						<div
 							class="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300"
@@ -746,7 +738,10 @@
 							</svg>
 						</div>
 						<h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">Lifestyle Blog</h3>
-						<p class="text-gray-300 text-sm sm:text-base">Thoughts & Experiences</p>
+						<p class="text-gray-300 text-sm sm:text-base">
+							Writing about my own experiences and thoughts about health in general. Useful tools &
+							calculators for daily life.
+						</p>
 					</a>
 
 					<a
