@@ -671,7 +671,9 @@
 					</p>
 				</div>
 
-				<div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl lg:max-w-6xl mx-auto">
+				<div
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-5xl lg:max-w-6xl mx-auto"
+				>
 					<a
 						href="https://www.youtube.com/@jeppzonegaming"
 						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-red-500/25 group"
@@ -745,6 +747,31 @@
 						</div>
 						<h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">Lifestyle Blog</h3>
 						<p class="text-gray-300 text-sm sm:text-base">Thoughts & Experiences</p>
+					</a>
+
+					<a
+						href="https://open.spotify.com/show/5iiHXMOXwuy58vApu7RZh5"
+						class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 text-center hover:-translate-y-2 hover:bg-white/10 transition-all duration-300 ease-out shadow-2xl hover:shadow-green-500/25 group"
+						aria-label="Listen to Första och Tio - NFL Podcast"
+						rel="noopener noreferrer"
+					>
+						<div
+							class="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-green-400 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300"
+						>
+							<svg
+								class="w-10 h-10 sm:w-12 sm:h-12 text-white"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path
+									d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm-2 16.5v-9l6 4.5-6 4.5z"
+								/>
+							</svg>
+						</div>
+						<h3 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">NFL Podcast</h3>
+						<p class="text-gray-300 text-sm sm:text-base">
+							Första och Tio - A podcast about the NFL in Swedish
+						</p>
 					</a>
 				</div>
 			</div>
