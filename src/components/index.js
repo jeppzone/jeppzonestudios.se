@@ -1,0 +1,10 @@
+export { default as SEOHead } from './SEOHead.svelte';
+export { default as AnimatedBackground } from './AnimatedBackground.svelte';
+export { default as HeroSection } from './HeroSection.svelte';
+export { default as TechnologiesSection } from './TechnologiesSection.svelte';
+export { default as WorkExperienceSection } from './WorkExperienceSection.svelte';
+export { default as EducationSection } from './EducationSection.svelte';
+export { default as SideProjectsSection } from './SideProjectsSection.svelte';
+export { default as SocialLinksSection } from './SocialLinksSection.svelte';
+export { default as ContentCreationSection } from './ContentCreationSection.svelte';
+export { default as ContactCTASection } from './ContactCTASection.svelte';
