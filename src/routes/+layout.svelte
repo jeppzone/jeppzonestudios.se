@@ -1,7 +1,5 @@
 <script>
 	import '../app.pcss';
-	import { onMount } from 'svelte';
-	import { slide, fade } from 'svelte/transition';
 
 	let mobileMenuOpen = false;
 
@@ -14,53 +12,43 @@
 	}
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-50">
-	<nav class="container mx-auto px-4 py-4">
+<header class="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/40 backdrop-blur-md">
+	<nav class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl lg:max-w-7xl py-4">
 		<div class="flex items-center justify-between">
-			<!-- Logo -->
-			<a href="/" class="flex items-center space-x-2 group">
-				<div
-					class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center text-white font-bold text-xl group-hover:scale-110 transition-transform"
-				>
-					<img src="/favicon.ico" alt="Jeppzone Studios Logo" class="w-10 h-10 rounded-xl" />
-				</div>
-				<span class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+			<a href="/" class="flex items-center gap-2.5 group">
+				<img src="/favicon.ico" alt="" class="w-7 h-7 rounded-lg" />
+				<span class="text-white text-sm font-medium group-hover:text-gray-300 transition-colors">
 					Jeppzone Studios
 				</span>
 			</a>
 
-			<!-- Desktop Navigation -->
-			<div class="hidden lg:flex items-center space-x-8">
+			<div class="hidden lg:flex items-center gap-8">
 				<a href="#about" class="nav-link">About</a>
 				<a href="#technologies" class="nav-link">Tech</a>
 				<a href="#experience" class="nav-link">Experience</a>
 				<a href="#contact" class="nav-link">Contact</a>
 			</div>
 
-			<!-- Mobile Menu Button -->
 			<button
-				class="lg:hidden w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center text-white hover:bg-white/20 transition-colors"
+				class="lg:hidden w-9 h-9 flex items-center justify-center text-gray-400 hover:text-white transition-colors"
 				on:click={toggleMobileMenu}
-				aria-label="Toggle mobile menu"
+				aria-label="Toggle menu"
 			>
-				<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M4 6h16M4 12h16M4 18h16"
-					/>
-				</svg>
+				{#if mobileMenuOpen}
+					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				{:else}
+					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				{/if}
 			</button>
 		</div>
 
-		<!-- Mobile Navigation -->
 		{#if mobileMenuOpen}
-			<div
-				class="lg:hidden mt-4 bg-black/80 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl overflow-hidden"
-				in:slide={{ duration: 300 }}
-			>
-				<div class="p-6 space-y-4">
+			<div class="lg:hidden mt-3 py-3 border-t border-white/10">
+				<div class="flex flex-col gap-1">
 					<a href="#about" class="mobile-nav-link" on:click={closeMobileMenu}>About</a>
 					<a href="#technologies" class="mobile-nav-link" on:click={closeMobileMenu}>Tech</a>
 					<a href="#experience" class="mobile-nav-link" on:click={closeMobileMenu}>Experience</a>
@@ -77,23 +65,10 @@
 
 <style>
 	.nav-link {
-		@apply text-gray-300 hover:text-white transition-colors duration-300 font-medium relative;
-	}
-
-	.nav-link::after {
-		content: '';
-		@apply absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-300;
-	}
-
-	.nav-link:hover::after {
-		@apply w-full;
+		@apply text-gray-400 hover:text-white transition-colors text-sm;
 	}
 
 	.mobile-nav-link {
-		@apply block text-white hover:text-cyan-400 transition-colors duration-300 font-medium py-3 px-4 rounded-lg hover:bg-white/20 font-semibold;
-	}
-
-	.btn-primary {
-		@apply bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-6 py-2 rounded-full font-semibold hover:shadow-glow transition-all duration-300 hover:scale-105;
+		@apply block text-gray-400 hover:text-white transition-colors py-2 px-1 text-sm;
 	}
 </style>

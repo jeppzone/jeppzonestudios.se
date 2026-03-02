@@ -25,22 +25,31 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* Shared utility */
+.section-label {
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: rgb(107 114 128);
+	margin-bottom: 2rem;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-	width: 8px;
+	width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-	background: rgba(255, 255, 255, 0.1);
+	background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: linear-gradient(135deg, #667eea, #764ba2);
-	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: linear-gradient(135deg, #764ba2, #667eea);
+	background: rgba(255, 255, 255, 0.2);
 }
 
 /* Reduced motion preferences */
