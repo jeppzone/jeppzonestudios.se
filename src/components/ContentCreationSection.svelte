@@ -13,11 +13,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						Gaming Channel
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						Playing difficult games and beating impossible bosses.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 
 			<a
@@ -30,11 +30,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						Lifestyle Channel
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						Health and lifestyle from personal experience.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 
 			<a
@@ -47,11 +47,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						Lifestyle Blog
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						Writing on health and daily habits, plus tools and calculators.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 
 			<a
@@ -64,11 +64,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						Första och Tio
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						NFL podcast in Swedish.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 		</div>
 	</div>

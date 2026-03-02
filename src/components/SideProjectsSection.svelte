@@ -13,11 +13,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						PickemSZN
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						NFL pick'em platform. Compete with friends across the season.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 
 			<a
@@ -30,11 +30,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						Quizter
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						Interactive quiz app for learning and entertainment.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 
 			<a
@@ -47,11 +47,11 @@
 					<h3 class="text-white font-medium group-hover:text-blue-400 transition-colors">
 						fyndar.se
 					</h3>
-					<p class="text-gray-400 text-sm mt-1">
+					<p class="text-gray-300 text-sm mt-1">
 						Swedish marketplace aggregator. Built together with a colleague.
 					</p>
 				</div>
-				<span class="text-gray-500 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
+				<span class="text-gray-400 group-hover:text-blue-400 transition-colors text-lg leading-none shrink-0">↗</span>
 			</a>
 		</div>
 	</div>

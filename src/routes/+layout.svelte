@@ -30,7 +30,7 @@
 			</div>
 
 			<button
-				class="lg:hidden w-9 h-9 flex items-center justify-center text-gray-400 hover:text-white transition-colors"
+				class="lg:hidden w-9 h-9 flex items-center justify-center text-gray-300 hover:text-white transition-colors"
 				on:click={toggleMobileMenu}
 				aria-label="Toggle menu"
 			>
@@ -65,10 +65,10 @@
 
 <style>
 	.nav-link {
-		@apply text-gray-400 hover:text-white transition-colors text-sm;
+		@apply text-gray-300 hover:text-white transition-colors text-sm;
 	}
 
 	.mobile-nav-link {
-		@apply block text-gray-400 hover:text-white transition-colors py-2 px-1 text-sm;
+		@apply block text-gray-300 hover:text-white transition-colors py-2 px-1 text-sm;
 	}
 </style>

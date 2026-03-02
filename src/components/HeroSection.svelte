@@ -11,12 +11,12 @@
 			Jesper<br />Olsson Laine
 		</h1>
 
-		<p class="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-lg">
+		<p class="text-lg sm:text-xl text-gray-200 leading-relaxed max-w-lg">
 			Freelance software developer based in Gothenburg. Fullstack, with 7 years of experience
 			building and shipping software.
 		</p>
 
-		<p class="text-sm text-gray-400 mt-4">
+		<p class="text-sm text-gray-300 mt-4">
 			Operating as Jeppzone Studios — currently open to new projects.
 		</p>
 	</div>

@@ -11,8 +11,8 @@
 				<span class="experience-date">2023–Present</span>
 				<div>
 					<h3 class="text-white font-medium">Jeppzone Studios</h3>
-					<p class="text-gray-400 text-sm">Freelance</p>
-					<p class="text-gray-300 text-sm mt-2 leading-relaxed">
+					<p class="text-gray-300 text-sm">Freelance</p>
+					<p class="text-gray-200 text-sm mt-2 leading-relaxed">
 						Building and maintaining software for clients across various industries.
 					</p>
 				</div>
@@ -22,10 +22,10 @@
 				<span class="experience-date">2021–2023</span>
 				<div>
 					<h3 class="text-white font-medium">
-						Stena Line <span class="text-gray-400 font-normal text-sm">via Cygni</span>
+						Stena Line <span class="text-gray-300 font-normal text-sm">via Cygni</span>
 					</h3>
-					<p class="text-gray-400 text-sm">Fullstack Developer Consultant</p>
-					<p class="text-gray-300 text-sm mt-2 leading-relaxed">
+					<p class="text-gray-300 text-sm">Fullstack Developer Consultant</p>
+					<p class="text-gray-200 text-sm mt-2 leading-relaxed">
 						Architected and built a modern payment platform using .NET, React and SQL Server,
 						deployed on OpenShift with a microservices architecture.
 					</p>
@@ -36,10 +36,10 @@
 				<span class="experience-date">2018–2021</span>
 				<div>
 					<h3 class="text-white font-medium">
-						Volvo Cars <span class="text-gray-400 font-normal text-sm">via Cygni</span>
+						Volvo Cars <span class="text-gray-300 font-normal text-sm">via Cygni</span>
 					</h3>
-					<p class="text-gray-400 text-sm">Fullstack Developer Consultant</p>
-					<p class="text-gray-300 text-sm mt-2 leading-relaxed">
+					<p class="text-gray-300 text-sm">Fullstack Developer Consultant</p>
+					<p class="text-gray-200 text-sm mt-2 leading-relaxed">
 						Built a high-performance internal search engine using .NET and Elasticsearch,
 						hosted on AWS EKS.
 					</p>
@@ -55,6 +55,6 @@
 	}
 
 	.experience-date {
-		@apply text-gray-500 text-sm shrink-0 sm:w-28 pt-0.5;
+		@apply text-gray-400 text-sm shrink-0 sm:w-28 pt-0.5;
 	}
 </style>

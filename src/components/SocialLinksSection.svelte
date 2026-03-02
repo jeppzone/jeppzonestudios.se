@@ -18,7 +18,7 @@
 				<a
 					href="https://github.com/jeppzone"
 					rel="noopener noreferrer"
-					class="text-gray-400 hover:text-white transition-colors text-sm"
+					class="text-gray-300 hover:text-white transition-colors text-sm"
 					aria-label="GitHub"
 				>
 					GitHub
@@ -26,7 +26,7 @@
 				<a
 					href="https://www.linkedin.com/in/jesper-olsson-laine-86076a97/"
 					rel="noopener noreferrer"
-					class="text-gray-400 hover:text-white transition-colors text-sm"
+					class="text-gray-300 hover:text-white transition-colors text-sm"
 					aria-label="LinkedIn"
 				>
 					LinkedIn

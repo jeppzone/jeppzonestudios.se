@@ -33,10 +33,10 @@
 	}
 
 	.stack-category {
-		@apply text-gray-400 text-sm sm:w-28 shrink-0;
+		@apply text-gray-300 text-sm sm:w-28 shrink-0;
 	}
 
 	.stack-items {
-		@apply text-gray-200 text-sm;
+		@apply text-white text-sm;
 	}
 </style>

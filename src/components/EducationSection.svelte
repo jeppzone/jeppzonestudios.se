@@ -10,7 +10,7 @@
 				<span class="edu-date">2016–2018</span>
 				<div>
 					<h3 class="text-white font-medium">MSc. Interaction Design</h3>
-					<p class="text-gray-400 text-sm mt-1">Chalmers University of Technology</p>
+					<p class="text-gray-300 text-sm mt-1">Chalmers University of Technology</p>
 				</div>
 			</div>
 
@@ -18,7 +18,7 @@
 				<span class="edu-date">2013–2016</span>
 				<div>
 					<h3 class="text-white font-medium">BSc. Software Engineering</h3>
-					<p class="text-gray-400 text-sm mt-1">Chalmers University of Technology</p>
+					<p class="text-gray-300 text-sm mt-1">Chalmers University of Technology</p>
 				</div>
 			</div>
 		</div>
@@ -31,6 +31,6 @@
 	}
 
 	.edu-date {
-		@apply text-gray-500 text-sm shrink-0 sm:w-28 pt-0.5;
+		@apply text-gray-400 text-sm shrink-0 sm:w-28 pt-0.5;
 	}
 </style>
